@@ -1,6 +1,6 @@
 ---
 - name: Ensure apache is installed and started via role
-  hosts: web
+  hosts: appserver
   become: yes
   roles:
     - apache-simple
